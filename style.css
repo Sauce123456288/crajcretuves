@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image:url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+header {
+  background: #0073e6;
+  color: #ffffff;
+  padding: 1rem;
+}
+nav a {
+  margin-right: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+main {
+  padding: 2rem;
+}
+body.dark-mode {
+  background: #121212;
+  color: #cc8e1b;
+}
+body.dark-mode header {
+  background: hsl(0, 80%, 44%):
+  h1 {
+    color: white;
+
